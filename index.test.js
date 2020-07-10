@@ -9,7 +9,7 @@ describe("", () => {
         expect(functions.getDifference(2, 3)).toEqual(1)
     });
 
-    // it("should return the addition of two numbers", () => {
-    //     expect(functions.multiply(2, 3)).toEqual(6)
-    // });
+    it("should return the addition of two numbers", () => {
+        expect(functions.multiply(2, 3)).toEqual(6)
+    });
 });
