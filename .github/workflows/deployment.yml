@@ -30,6 +30,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm install
       - run: npm test
+      - run: ./scripts/codecov.sh
 
   release:
     needs: build
