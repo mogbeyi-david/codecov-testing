@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest --coverage --verbose"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
