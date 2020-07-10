@@ -16,7 +16,7 @@ jobs:
 
     env:
       CI: true
-      CODECOV_TOKEN="f036a7e2-b8f2-485c-a99c-0e9019e6e529"
+
 
     strategy:
       matrix:
