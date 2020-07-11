@@ -9,11 +9,28 @@ coverage:
         target: 70%
         threshold: 30%
         base: auto
+      firstProject:
+        target: 70%
+        threshold: 30%
         flags:
-          - backend
+          - firstProject
+      secondProject:
+        target: 70%
+        threshold: 30%
+        flags:
+          - secondProject
   range: 70..100
   round: down
   precision: 2
   parsers:
     javascript:
       enable_partials: no
+flags:
+  firstProject:
+    paths:
+      - second-project/
+    carryforward: true
+  secondProject:
+    paths:
+      - second-project/
+    carryforward: true
