@@ -36,8 +36,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codecov.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="252">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second-project/index.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -67,10 +76,10 @@
         <option value="$PROJECT_DIR$/second-project/index.js" />
         <option value="$PROJECT_DIR$/second-project/.gitignore" />
         <option value="$PROJECT_DIR$/second-project/functions.js" />
-        <option value="$PROJECT_DIR$/second-project/index.test.js" />
         <option value="$PROJECT_DIR$/first-project/package.json" />
         <option value="$PROJECT_DIR$/.github/workflows/deployment.yml" />
         <option value="$PROJECT_DIR$/second-project/package.json" />
+        <option value="$PROJECT_DIR$/second-project/index.test.js" />
         <option value="$PROJECT_DIR$/codecov.yml" />
       </list>
     </option>
@@ -102,6 +111,11 @@
             <path>
               <item name="shopify-auth" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="shopify-auth" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="second-project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -148,16 +162,15 @@
       <option name="presentableId" value="Default" />
       <updated>1594230263071</updated>
       <workItem from="1594230264774" duration="3600000" />
-      <workItem from="1594367974819" duration="14324000" />
+      <workItem from="1594367974819" duration="14582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17924000" />
+    <option name="totallyTimeSpent" value="18182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,13 +262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second-project/index.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second-project/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -290,10 +296,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/second-project/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codecov.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="252">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
