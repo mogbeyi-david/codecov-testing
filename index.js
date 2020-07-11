@@ -18,4 +18,5 @@ module.exports = {
     add,
     getDifference,
     multiply,
+    getQuotient
 };
