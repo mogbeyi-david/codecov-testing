@@ -29,7 +29,7 @@ flags:
   firstProject:
     paths:
       - first-project/
-    carryforward: true
+    carryforward: false
   secondProject:
     paths:
       - second-project/
