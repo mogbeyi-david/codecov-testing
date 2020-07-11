@@ -8,13 +8,11 @@ coverage:
       default:
         target: auto
       firstProject:
-        target: auto
-        threshold: 30%
+        target: 30%
         flags:
           - firstProject
       secondProject:
-        target: auto
-        threshold: 30%
+        target: 30%
         flags:
           - secondProject
   range: 70..100
