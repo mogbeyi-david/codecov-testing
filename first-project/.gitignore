@@ -1,4 +1,4 @@
 coverage/
-.idea/
+../.idea/
 node_modules
 sandbox.js

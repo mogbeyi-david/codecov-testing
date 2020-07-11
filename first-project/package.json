@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage --verbose",
-    "build:linux": "jest --coverage --verbose",
     "push-report": "jest --coverage && codecov -t $CODECOV_TOKEN"
   },
   "jest": {

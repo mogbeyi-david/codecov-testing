@@ -1,0 +1,17 @@
+{
+  "name": "second-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "push-report": "jest --coverage && codecov -t $CODECOV_TOKEN"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
