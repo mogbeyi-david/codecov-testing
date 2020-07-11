@@ -29,6 +29,7 @@ jobs:
         run: |
           cd second-project
           npm install
+          npm test
           CODECOV_TOKEN=${{ secrets.CODECOV_TOKEN }} npm run push-report
         env:
           CI: true
