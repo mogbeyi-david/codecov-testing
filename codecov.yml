@@ -29,4 +29,4 @@ flags:
   secondProject:
     paths:
       - second-project/
-    carryforward: true
+    carryforward: false
