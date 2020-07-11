@@ -19,8 +19,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install, and test
+      - name: Test First-Project
         run: |
+          cd first-project
+          npm install
+          CODECOV_TOKEN=${{ secrets.CODECOV_TOKEN }} npm run push-report
+      - name: Test Second-Project
+        run: |
+          cd second-project
           npm install
           CODECOV_TOKEN=${{ secrets.CODECOV_TOKEN }} npm run push-report
         env:
