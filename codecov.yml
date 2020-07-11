@@ -8,12 +8,10 @@ coverage:
       default:
         target: 30%
       firstProject:
-        target: 30%
         range: 70..100
         flags:
           - firstProject
       secondProject:
-        target: 30%
         range: 70..100
         flags:
           - secondProject
