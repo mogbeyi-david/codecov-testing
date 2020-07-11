@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "push-report": "jest --coverage && codecov -t $CODECOV_TOKEN"
+    "test": "jest --coverage",
+    "push-report": "codecov -t $CODECOV_TOKEN"
   },
   "jest": {
     "verbose": true,
