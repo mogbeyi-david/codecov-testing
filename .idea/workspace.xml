@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codecov.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="404">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -148,15 +148,16 @@
       <option name="presentableId" value="Default" />
       <updated>1594230263071</updated>
       <workItem from="1594230264774" duration="3600000" />
-      <workItem from="1594367974819" duration="13989000" />
+      <workItem from="1594367974819" duration="14324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17589000" />
+    <option name="totallyTimeSpent" value="17924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codecov.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="404">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

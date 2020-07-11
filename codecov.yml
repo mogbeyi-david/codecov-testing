@@ -6,17 +6,13 @@ coverage:
   status:
     project:
       default:
-        target: 70%
-        threshold: 30%
-        base: auto
+        target: auto
       firstProject:
-        target: 70%
-        threshold: 30%
+        target: auto
         flags:
           - firstProject
       secondProject:
-        target: 70%
-        threshold: 30%
+        target: auto
         flags:
           - secondProject
   range: 70..100
@@ -29,7 +25,7 @@ flags:
   firstProject:
     paths:
       - first-project/
-    carryforward: true
+    carryforward: false
   secondProject:
     paths:
       - second-project/
