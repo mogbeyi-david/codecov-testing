@@ -7,4 +7,11 @@ const getGithubReposForUser = async (username) => {
     return result.length;
 };
 
-module.exports = {getGithubReposForUser};
+const getJsonResponse = async (link) => {
+    const response = await fetch(link);
+    const result = await response.json();
+    const {id} = result;
+    return id
+};
+
+module.exports = {getGithubReposForUser, getJsonResponse};
