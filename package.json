@@ -4,29 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "build:linux": "jest --coverage --verbose",
-    "push-report": "jest --coverage && codecov -t $CODECOV_TOKEN"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "jest": {
-    "verbose": true,
-    "collectCoverage": true,
-    "coverageDirectory": "./coverage/",
-    "coverageReporters": [
-      "json",
-      "lcov",
-      "text",
-      "clover"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogbeyi-david/codecov-testing.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "bugs": {
+    "url": "https://github.com/mogbeyi-david/codecov-testing/issues"
   },
-  "devDependencies": {
-    "codecov": "^3.7.0",
-    "jest": "^26.1.0"
-  }
+  "homepage": "https://github.com/mogbeyi-david/codecov-testing#readme"
 }

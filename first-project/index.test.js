@@ -1,4 +1,4 @@
-const functions =  require("./index");
+const functions =  require(".");
 
 describe("", () => {
     it("should return the addition of two numbers", () => {

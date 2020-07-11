@@ -1,0 +1,29 @@
+{
+  "name": "second-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "push-report": "jest --coverage && codecov -t $CODECOV_TOKEN"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codecov": "^3.7.0",
+    "jest": "^26.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
