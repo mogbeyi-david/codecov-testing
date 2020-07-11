@@ -6,7 +6,7 @@ coverage:
   status:
     project:
       default:
-        target: auto
+        target: 30%
       firstProject:
         target: 30%
         flags:
