@@ -12,6 +12,7 @@ coverage:
         flags:
           - firstProject
       secondProject:
+        #range: 70..100
         flags:
           - secondProject
   round: down
