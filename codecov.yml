@@ -28,7 +28,7 @@ coverage:
 flags:
   firstProject:
     paths:
-      - second-project/
+      - first-project/
     carryforward: true
   secondProject:
     paths:
