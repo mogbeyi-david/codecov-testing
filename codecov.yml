@@ -8,7 +8,6 @@ coverage:
       default:
         target: 70%
         threshold: 30%
-        base: auto
       firstProject:
         target: 70%
         threshold: 30%
