@@ -6,9 +6,9 @@ describe("", () => {
     });
 
 
-    // it("should return the addition of two numbers", () => {
-    //     expect(functions.getDifference(2, 3)).toEqual(1)
-    // });
+    it("should return the addition of two numbers", () => {
+        expect(functions.getDifference(2, 3)).toEqual(1)
+    });
 
 
     it("should return the addition of two numbers", () => {
