@@ -6,16 +6,15 @@ coverage:
   status:
     project:
       default:
-        target: 30%
+        target: 80%
+        threshold: 10%
       firstProject:
-        range: 70..100
         flags:
           - firstProject
       secondProject:
-        range: 70..100
+        #range: 70..100
         flags:
           - secondProject
-  range: 70..100
   round: down
   precision: 2
   parsers:
@@ -24,9 +23,11 @@ coverage:
 flags:
   firstProject:
     paths:
-      - first-project/
+      - first-project/coverage/lcov.info
+      - first-project/coverage/clover.xml
     carryforward: true
   secondProject:
     paths:
-      - second-project/
+      - second-project/coverage/lcov.info
+      - second-project/coverage/clover.xml
     carryforward: true
