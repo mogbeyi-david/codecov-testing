@@ -5,14 +5,14 @@ coverage:
   status:
     project:
       default: off
-      frontend:
+      firstproject:
         flags:
-          - frontend
+          - firstProject
         target: 80%
         threshold: 10%
-      backend:
+      secondproject:
         flags:
-          - backend
+          - secondProject
         target: 80%
         threshold: 10%
   round: down
@@ -21,11 +21,11 @@ coverage:
     javascript:
       enable_partials: yes
 flags:
-  frontend:
+  firstproject:
     paths:
       - first-project/
     carryforward: true
-  backend:
+  secondproject:
     paths:
       - second-project/
     carryforward: true
