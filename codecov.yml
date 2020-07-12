@@ -1,5 +1,6 @@
 codecov:
   bot: this-is-codecov-bot
+  max_report_age: off
 comment:
   require_changes: true
 coverage:
