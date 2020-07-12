@@ -5,14 +5,14 @@ comment:
 coverage:
   status:
     project:
-      default:
+      firstProject:
         target: 80%
         threshold: 10%
-      firstProject:
         flags:
           - firstProject
       secondProject:
-        #range: 70..100
+        target: 80%
+        threshold: 10%
         flags:
           - secondProject
   round: down
