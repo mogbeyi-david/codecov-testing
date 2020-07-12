@@ -7,6 +7,17 @@
     "test": "jest --coverage",
     "push-report": "codecov -t $CODECOV_TOKEN"
   },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

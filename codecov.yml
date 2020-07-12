@@ -19,15 +19,13 @@ coverage:
   precision: 2
   parsers:
     javascript:
-      enable_partials: no
+      enable_partials: yes
 flags:
   firstProject:
     paths:
-      - first-project/coverage/lcov.info
-      - first-project/coverage/clover.xml
+      - ./first-project/coverage/lcov.info
     carryforward: true
   secondProject:
     paths:
-      - second-project/coverage/lcov.info
-      - second-project/coverage/clover.xml
+      - ./second-project/coverage/lcov.info
     carryforward: true
