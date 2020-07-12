@@ -5,12 +5,12 @@ coverage:
   status:
     project:
       default: off
-      firstproject:
+      firstProject:
         flags:
           - firstproject
         target: 80%
         threshold: 10%
-      secondproject:
+      secondProject:
         flags:
           - secondproject
         target: 80%
