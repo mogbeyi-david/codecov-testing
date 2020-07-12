@@ -7,12 +7,12 @@ coverage:
       default: off
       firstproject:
         flags:
-          - firstproject
+          - firstProject
         target: 80%
         threshold: 10%
       secondproject:
         flags:
-          - secondproject
+          - secondProject
         target: 80%
         threshold: 10%
   round: down
