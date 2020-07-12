@@ -1,21 +1,20 @@
 codecov:
   bot: this-is-codecov-bot
   max_report_age: off
-comment:
-  require_changes: true
 coverage:
   status:
     project:
+      default: off
       firstProject:
-        target: 80%
-        threshold: 10%
         flags:
           - firstProject
-      secondProject:
         target: 80%
         threshold: 10%
+      secondProject:
         flags:
           - secondProject
+        target: 80%
+        threshold: 10%
   round: down
   precision: 2
   parsers:
@@ -24,9 +23,9 @@ coverage:
 flags:
   firstProject:
     paths:
-      - ./first-project/coverage/lcov.info
+      - first-project/
     carryforward: true
   secondProject:
     paths:
-      - ./second-project/coverage/lcov.info
+      - second-project/
     carryforward: true
