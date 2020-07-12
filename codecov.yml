@@ -5,7 +5,7 @@ coverage:
   status:
     project:
       default: off
-      firstProject:
+      firstproject:
         flags:
           - firstproject
         target: 80%
