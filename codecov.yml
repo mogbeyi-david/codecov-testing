@@ -5,12 +5,12 @@ coverage:
   status:
     project:
       default: off
-      firstProject:
+      firstproject:
         flags:
           - firstProject
         target: 80%
         threshold: 10%
-      secondProject:
+      secondproject:
         flags:
           - secondProject
         target: 80%
@@ -21,11 +21,11 @@ coverage:
     javascript:
       enable_partials: yes
 flags:
-  firstProject:
+  firstproject:
     paths:
       - first-project/
     carryforward: true
-  secondProject:
+  secondproject:
     paths:
       - second-project/
     carryforward: true
