@@ -24,8 +24,8 @@ flags:
   firstproject:
     paths:
       - first-project/
-    carryforward: true
+    carryforward: false
   secondproject:
     paths:
       - second-project/
-    carryforward: true
+    carryforward: false
